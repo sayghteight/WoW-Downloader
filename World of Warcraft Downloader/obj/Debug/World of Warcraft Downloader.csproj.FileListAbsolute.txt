@@ -1,0 +1,21 @@
+c:\users\alex\documents\visual studio 2015\Projects\World of Warcraft Downloader\World of Warcraft Downloader\bin\Debug\World of Warcraft Downloader.exe
+c:\users\alex\documents\visual studio 2015\Projects\World of Warcraft Downloader\World of Warcraft Downloader\bin\Debug\World of Warcraft Downloader.pdb
+c:\users\alex\documents\visual studio 2015\Projects\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2015\Projects\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World_of_Warcraft_Downloader.Form1.resources
+c:\users\alex\documents\visual studio 2015\Projects\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World_of_Warcraft_Downloader.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2015\Projects\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2015\Projects\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.exe
+c:\users\alex\documents\visual studio 2015\Projects\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.pdb
+C:\Users\alex\Documents\Visual Studio 2015\Projects\World of Warcraft Downloader\World of Warcraft Downloader\bin\Debug\World of Warcraft Downloader.exe.config
+C:\Users\alex\Desktop\World of Warcraft Downloader\World of Warcraft Downloader\bin\Debug\World of Warcraft Downloader.exe.config
+C:\Users\alex\Desktop\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.exe
+C:\Users\alex\Desktop\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.pdb
+C:\Users\alex\Desktop\World of Warcraft Downloader\World of Warcraft Downloader\bin\Debug\World of Warcraft Downloader.exe
+C:\Users\alex\Desktop\World of Warcraft Downloader\World of Warcraft Downloader\bin\Debug\World of Warcraft Downloader.pdb
+C:\Users\alex\Desktop\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.csprojResolveAssemblyReference.cache
+C:\Users\alex\Desktop\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World_of_Warcraft_Downloader.Form1.resources
+C:\Users\alex\Desktop\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World_of_Warcraft_Downloader.Properties.Resources.resources
+C:\Users\alex\Desktop\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.csproj.GenerateResource.Cache
+F:\Visual Studio\World of Warcraft Downloader\World of Warcraft Downloader\bin\Debug\World of Warcraft Downloader.exe.config
+F:\Visual Studio\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.exe
+F:\Visual Studio\World of Warcraft Downloader\World of Warcraft Downloader\obj\Debug\World of Warcraft Downloader.pdb

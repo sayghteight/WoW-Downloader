@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="World_of_Warcraft_Downloader.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WoWD_DLink1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/Asandru/World-of-Warcraft-Downloader/raw/master/torrents/World_of_Warcraft_1.12.1.torrent</Value>
+    </Setting>
+    <Setting Name="WoWD_DLink2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/Asandru/World-of-Warcraft-Downloader/raw/master/torrents/World_of_Warcraft_2.4.3.torrent</Value>
+    </Setting>
+    <Setting Name="WoWD_DLink3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/Asandru/World-of-Warcraft-Downloader/raw/master/torrents/World_of_Warcraft_3.3.5a.torrent</Value>
+    </Setting>
+    <Setting Name="WoWD_DLink4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/Asandru/World-of-Warcraft-Downloader/raw/master/torrents/World_of_Warcraft_4.3.4.torrent</Value>
+    </Setting>
+    <Setting Name="WoWD_DLink5" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/Asandru/World-of-Warcraft-Downloader/raw/master/torrents/World_of_Warcraft_5.4.8.torrent</Value>
+    </Setting>
+    <Setting Name="WoWD_DLink6" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/Asandru/World-of-Warcraft-Downloader/raw/master/torrents/World_of_Warcraft_6.2.3.torrent</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
