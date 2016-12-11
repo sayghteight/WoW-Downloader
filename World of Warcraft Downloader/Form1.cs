@@ -27,7 +27,7 @@ namespace World_of_Warcraft_Downloader
         private string WoWD_File5;
         private string WoWD_File6;
 
-        private void DownloadClient(int client_id)
+        private void DownloadClient_Version1(int client_id)
         {
             Thread thread = new Thread(() => 
             {
@@ -94,9 +94,51 @@ namespace World_of_Warcraft_Downloader
             thread.Start();
         }
 
+        private void DownloadClient_Version2(int client_id)
+        {
+            var client = new WebClient();
+
+            switch (client_id)
+            {
+                case 1:
+
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+                    {
+                        using (var stream = client.OpenRead("https://raw.githubusercontent.com/SuperDevRealm/WoW-Downloader/master/magnets.txt"))
+                        {
+                            using (var reader = new StreamReader(stream))
+                            {
+                                string line;
+                                while ((line = reader.ReadLine()) != null)
+                                {
+                                    if (line.Contains("downloader_wotlk="))
+                                    {
+                                        Process.Start(line.Replace("downloader_wotlk=", ""));
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    break;
+                case 4:
+
+                    break;
+                case 5:
+
+                    break;
+                case 6:
+
+                    break;
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            DownloadClient(1); // vanilla
+            DownloadClient_Version1(1); // vanilla
         }
 
         private void client_DownloadProgressChanged1(object sender, DownloadProgressChangedEventArgs e) { }
@@ -112,7 +154,7 @@ namespace World_of_Warcraft_Downloader
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DownloadClient(2); // tbc
+            DownloadClient_Version1(2); // tbc
         }
 
         private void client_DownloadProgressChanged2(object sender, DownloadProgressChangedEventArgs e) { }
@@ -128,7 +170,7 @@ namespace World_of_Warcraft_Downloader
 
         private void button3_Click(object sender, EventArgs e)
         {
-            DownloadClient(3); // wotlk
+            DownloadClient_Version2(3); // wotlk
         }
 
         private void client_DownloadProgressChanged3(object sender, DownloadProgressChangedEventArgs e) { }
@@ -144,7 +186,7 @@ namespace World_of_Warcraft_Downloader
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DownloadClient(4); // cata
+            DownloadClient_Version1(4); // cata
         }
 
         private void client_DownloadProgressChanged4(object sender, DownloadProgressChangedEventArgs e) { }
@@ -160,7 +202,7 @@ namespace World_of_Warcraft_Downloader
 
         private void button5_Click(object sender, EventArgs e)
         {
-            DownloadClient(5); // mop
+            DownloadClient_Version1(5); // mop
         }
 
         private void client_DownloadProgressChanged5(object sender, DownloadProgressChangedEventArgs e) { }
@@ -176,7 +218,7 @@ namespace World_of_Warcraft_Downloader
 
         private void button6_Click(object sender, EventArgs e)
         {
-            DownloadClient(6); // wod
+            DownloadClient_Version1(6); // wod
         }
 
         private void client_DownloadProgressChanged6(object sender, DownloadProgressChangedEventArgs e) { }
