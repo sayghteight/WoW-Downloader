@@ -39,8 +39,6 @@ namespace World_of_Warcraft_Downloader
 
         private void DownloadClient(int client_id)
         {
-            var client = new WebClient();
-
             switch (client_id)
             {
                 case 1:
@@ -104,7 +102,7 @@ namespace World_of_Warcraft_Downloader
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/SuperDevRealm/IssueTracker");
+            Process.Start("https://github.com/SuperDevRealm/IssueTracker/issues");
         }
     }
 }
