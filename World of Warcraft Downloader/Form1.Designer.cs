@@ -37,14 +37,15 @@
             this.button6 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.label1.Location = new System.Drawing.Point(12, 8);
+            this.label1.Location = new System.Drawing.Point(28, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 17);
+            this.label1.Size = new System.Drawing.Size(144, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "Select Expansion(s)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -131,9 +132,9 @@
             // 
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(12, 309);
+            this.label2.Location = new System.Drawing.Point(178, 5);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(264, 23);
+            this.label2.Size = new System.Drawing.Size(122, 23);
             this.label2.TabIndex = 8;
             this.label2.Text = "Required torrent!";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -141,20 +142,34 @@
             // linkLabel1
             // 
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.linkLabel1.Location = new System.Drawing.Point(12, 332);
+            this.linkLabel1.Location = new System.Drawing.Point(27, 361);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(264, 18);
             this.linkLabel1.TabIndex = 9;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Report Issue!";
+            this.linkLabel1.Text = "Report Issue! (Official Tracker)";
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Image = global::World_of_Warcraft_Downloader.Properties.Resources.WoW_Wod_icon;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button7.Location = new System.Drawing.Point(30, 310);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(254, 41);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "Legion (7.0.3)";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(312, 359);
+            this.ClientSize = new System.Drawing.Size(312, 390);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button6);
@@ -186,6 +201,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button button7;
     }
 }
 
