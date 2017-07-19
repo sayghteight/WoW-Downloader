@@ -1,7 +1,8 @@
-downloader_vanilla=magnet:?xt=urn:btih:2b32e64f6cd755a9e54d60e205a9681d6670cfae&dn=World+of+Warcraft+1.12+Client.rar
+downloader_vanilla=http://app-cdn.firestorm-servers.com/wow_vanilla/WoW%201.12.1%20-%20Blackrock%20(ES).rar
 downloader_tbc=magnet:?xt=urn:btih:3b03cbd4d977931ee5e186262f040832aa02bd4a&dn=Feenix+2.4.3+client.rar
 downloader_wotlk=magnet:?xt=urn:btih:b296ea8947b36c68f6e022f5a642ecc406ad8968&dn=World+of+Warcraft+3.3.5
 downloader_cata=magnet:?xt=urn:btih:99e6ca930d44f94869527def10aed9a01a16cd9a&dn=World+of+Warcraft+4.3.4
 downloader_mop=magnet:?xt=urn:btih:e2bef0057bd0216db68485ee30ed1b3e1e704ab3&dn=WoW_5.4.8
 downloader_wod=magnet:?xt=urn:btih:09d11ce29790342ae167315c454fa950c1294b5d&dn=Firestorm+-+World+of+Warcraft+6.2.3+Full.zip
 downloader_legion=magnet:?xt=urn:btih:d959421fcd4cfc4369ccb984cc0b8b8460e5a5d7&dn=Firestorm+-+Full+Legion+Client+7.0.3.rar
+
